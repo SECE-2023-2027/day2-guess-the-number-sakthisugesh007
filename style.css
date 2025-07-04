@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #eee;
+  color: #000;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+main h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.number {
+  font-size: 3rem;
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem auto;
+  background: #eee;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.message {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.input-area {
+  margin: 1rem 0;
+}
+
+.guess {
+  font-size: 1.5rem;
+  padding: 0.3rem;
+  width: 5rem;
+  text-align: center;
+}
+
+.label-score,
+.label-highscore {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
